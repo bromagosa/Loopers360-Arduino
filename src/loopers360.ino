@@ -18,7 +18,7 @@ int homeDegrees;
 int currentDegrees;
 
 void setup() {
-    Serial.begin(9600);
+    Serial.begin(56000);
     Serial.println("started...");
     stepper.begin(8.5); // default RPM
     stepper.setEnableActiveState(LOW);
